@@ -1,0 +1,285 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #999999;
+}
+ul {
+    padding: 0px!important;
+}
+.menu-principal{
+    width: 100%;
+    background-color:#0099cc;
+    height: 60px;
+}
+.simplesmente-eu ul li{
+    padding: 16px;
+    color: white;
+    font-size: 25px;
+    list-style: none;
+    margin-left: 5%;
+    font-family: Courgette;
+}
+main,.content{
+    margin: 0 auto;
+    width: 1000px;
+    position:relative;
+}
+.redes-sociais ul li{
+     margin-left: 15px;
+     display: inline-block;
+     list-style: none;
+     float: left;
+     margin-top: -20px;
+}
+.redes-sociais{
+    width: 19%;
+    float: right;
+    text-align: center;
+    margin-top: -50px;
+    margin-right: 84px;
+}
+.header-2 {
+    background-color:white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: -10px;
+    text-align: center;
+}
+.menu-urls {
+    height: 60px;
+    border-bottom: 3px#0099cc;
+
+}
+.menu ul li {
+    display: inline-block;
+    color:  #8c8c8c;
+    margin-left: 45px;
+    height: 50px;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid #0099cc;
+}
+.menu ul li a:hover {
+    color:#0099cc
+}
+.menu ul li a {
+    color: #666666;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+.busca {
+    text-align: center;
+    width: 29%;
+    float: left;
+}
+.busca input {
+    background-image: url('../img/lupa-arredondada.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    margin-top: 3px;
+    margin-right: 2px;
+    height: 25px;
+    width: 180px;
+    padding: 3px;
+    color: #666666;
+    border: 1px solid  ;
+    margin-left: 5px;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.menu-carrosel{
+    margin-top: -20%;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-right: 0px;
+    height: 400px;
+}
+.carousel-inner{
+    margin-top: -20%;
+    width: 100;
+    margin: 0 auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 500px;
+}
+.texto-destaque{
+    text-align: center;
+    margin-top: 50px;
+    color: #666666;
+    font-family: Bold 700;
+}
+.texto-destaque h1{
+    font-size: 40px;
+    margin-top: 50px;
+    color: #0099cc;
+    font-family: Courgette;
+}
+.texto-destaque p{
+    font-size: 23px;
+    text-align: center;
+    color: #666666;
+    margin-top: 20px;
+    font-family: bold 700;
+}
+.footer {
+    position:absolute;
+    bottom: -70%;
+    width: 100%;
+    background-color:#0099cc ;
+    text-align: center;
+    line-height: 30px;
+    font-family: Courgette;
+    color: white;
+    font-size: 20px;
+    text-align:center;
+    list-style: none; 
+}
+.footer ul li {
+    display: inline-block;
+    width: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+.aba-historia h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: courgette;
+    color: #0099cc;
+}
+.aba-historia p{
+    font-size: 18px;
+    text-align: center;
+    font-family: Medium 500;
+    color: #666666;
+    margin-top: 20px
+}
+.imagem-historia img{
+    padding: 140px;
+    margin-left: 19;
+    margin-top: -135px;
+    margin-bottom: -10px;
+    margin-right: 40px;
+    margin-left: 20px;
+    width: 20%;
+}
+.imagem-escola img{
+    padding: 170px;
+    margin-top: -49%;
+    float: right
+}
+.footer-historia{
+    position:absolute;
+    bottom: -16%;
+    width: 100%;
+    background-color:#0099cc ;
+    text-align: center;
+    line-height: 30px;
+    font-family: Courgette;
+    color: white;
+    font-size: 20px;
+    text-align:center;
+    list-style: none; 
+}
+.footer-historia ul li {
+    display: inline-block;
+    width: 50px;
+    margin-top: 5px;
+    text-align: center;
+}
+.aba-sonho h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 25px;
+    font-family: courgette;
+    color: #0099cc;
+}
+.aba-sonho p{
+    font-size: 18px;
+    text-align: center;
+    font-family: medium 500;
+    color: #666666;
+    margin-top: 20px;
+    margin-bottom: 40%;
+}
+.imagem-sonho img{
+    padding: 140px;
+    margin-left: 19;
+    margin-top: 100px;
+    margin-bottom: -40px;
+    margin-right: 40px;
+    margin-left: 20px;
+    display: inline-block;
+    height: -10px;
+}
+.imagem-avião img{
+    padding: 130px;
+    margin-top: -45%;
+    text-align: center;
+    margin-left: 24%;
+}
+.footer-sonho{
+    position:absolute;
+    bottom: -16%;
+    width: 100%;
+    background-color:#0099cc ;
+    text-align: center;
+    line-height: 30px;
+    font-family: Courgette;
+    color: white;
+    font-size: 20px;
+    text-align:center;
+    list-style: none; 
+}
+.footer-sonho ul li {
+    display: inline-block;
+    width: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+.aba-area_profissional h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 25px;
+    font-family: courgette;
+    color: #0099cc;
+} 
+.aba-area_profissional p{
+    font-size: 18px;
+    text-align: center;
+    font-family: medium 500;
+    color: #666666;
+    margin-top: 20px;
+    margin-bottom: 40%;
+}
+.footer-area_profissional{
+    position:absolute;
+    bottom: -0%;
+    width: 100%;
+    background-color:#0099cc ;
+    text-align: center;
+    line-height: 30px;
+    font-family: Courgette;
+    color: white;
+    font-size: 20px;
+    text-align:center;
+    list-style: none; 
+}
+.footer-area_profissional ul li {
+    display: inline-block;
+    width: 50px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: -5%;
+}
